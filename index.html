@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body{
+            background:linear-gradient(white ,rgb(201, 201, 201) );
+            font-family: Comic sans;
+        }
+        #con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.652);
+            font-size: 40px;
+            font-family: Cascadia Code Light;
+            flex-direction: column;
+            margin-top: 200px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 10px;
+            gap: 20px;
+            height: 20rem;
+            border-radius: 20px;
+        }
+        #text{
+            height: 150px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgb(255, 255, 255);
+            font-family: Cascadia Code Light;
+            padding: 0 10px;
+            border: none;
+            font-weight: bold;
+            background-color: rgb(160, 160, 160);
+            color: rgb(255, 255, 255);
+        }
+        #btn{
+            border-radius: 20px;
+            font-size: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            font-family: Cascadia Code Light;
+            color: rgb(255, 255, 255);
+            height: 50px;
+            background:linear-gradient( rgba(0, 0, 0, 0.17) , rgba(0, 0, 0, 0.203) 80%);
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background:linear-gradient( rgba(30, 30, 30, 0.082) , rgba(19, 19, 19, 0.132) 80%);
+            transition: all 0.75s;
+        }
+    </style>
+</head>
+<body>
+    
+    <div dir="ltr" id="con">
+        <input placeholder="Type somethings..."  id="text" type="text">
+        <button id="btn">Copy </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
